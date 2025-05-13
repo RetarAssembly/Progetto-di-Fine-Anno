@@ -1,0 +1,49 @@
+body {
+    background-color: #fefefe;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0; /* Rimuove i margini */
+    min-height: 100vh; /* Assicura che il contenuto occupi almeno l'altezza della finestra */
+    display: flex;
+    flex-direction: column; /* Dispone gli elementi in colonna */
+}
+  
+.card {
+    border-radius: 12px;
+    transition: transform 0.2s ease;
+}
+  
+.card:hover {
+    transform: scale(1.03);
+}
+
+#map-container {
+    width: 100vw; /* Larghezza completa della finestra */
+    height: 100vh; /* Altezza completa della finestra */
+    margin: 0; /* Rimuove i margini */
+    position: relative;
+    display: flex; /* Usa Flexbox */
+    justify-content: center; /* Centra orizzontalmente */
+    align-items: center; /* Centra verticalmente */
+    overflow: hidden; /* Evita che l'immagine esca dal contenitore */
+    flex: 1; /* Permette al contenitore di espandersi per occupare lo spazio disponibile */
+}
+  
+#map {
+    width: 100%; /* Occupa tutta la larghezza del contenitore */
+    height: 100%; /* Occupa tutta l'altezza del contenitore */
+    object-fit: contain; /* Adatta l'immagine senza tagliarla */
+    border-radius: 0; /* Rimuove gli angoli arrotondati */
+}
+  
+footer {
+    position: relative; /* Cambia da fixed a relative */
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa; /* Colore di sfondo del footer */
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #ddd; /* Linea sopra il footer */
+}
+
+
+
