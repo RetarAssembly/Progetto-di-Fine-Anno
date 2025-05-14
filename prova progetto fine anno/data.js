@@ -1,4 +1,5 @@
 const regioni = {
+  // Done:
   "Valle d'Aosta": {
     piatti: [
       "Polenta concia", 
@@ -49,6 +50,7 @@ const regioni = {
       "regioni/valle_daosta/prodotti/genepi.jpg"
     ]
   },
+   // Done:
   "Piemonte": {
     piatti: [
       "Bagna cauda",
@@ -99,6 +101,7 @@ const regioni = {
       "regioni/piemonte/prodotti/robiola.jpeg"
     ]
   },
+  // Done:
   "Lombardia": {
     piatti: [
       "Risotto alla milanese", 
@@ -149,7 +152,7 @@ const regioni = {
       "regioni/lombardia/prodotti/formaggella.jpg"
     ]
   },
-  // To-Do:
+  // Done:
    "Trentino-Alto Adige": {
     piatti: [
       "Canederli", 
@@ -200,6 +203,7 @@ const regioni = {
       "regioni/trentino_alto_adige/prodotti/formaggio.jpg"
     ]
   },
+  // Done
   "Veneto": {
     piatti: [
       "Risi e bisi", 
@@ -250,6 +254,7 @@ const regioni = {
       "regioni/veneto/prodotti/amarone_della_valpolicella_docg.jpg"
     ]
   },
+  // Done:
   "Friuli Venezia Giulia": {
     piatti: [
       "Frico", 
@@ -300,6 +305,7 @@ const regioni = {
       "regioni/friuli_venezia_giulia/prodotti/miele_di_acacia_del_carso.jpg"
     ]
   },
+  // Done:
   "Liguria": {
     piatti: [
       "Trofie al pesto", 
@@ -350,6 +356,7 @@ const regioni = {
       "regioni/liguria/prodotti/limoni_di_portofino.jpg"
     ]
   },
+  // Done
   "Emilia-Romagna": {
     piatti: [
       "Tortellini in brodo", 
@@ -400,7 +407,7 @@ const regioni = {
       "regioni/emilia_romagna/prodotti/coppa_piacentina_dop.jpg"
     ]
   },
-    // To-Do:
+    // Done
      "Toscana": {
     piatti: [
       "Bistecca alla fiorentina", 
@@ -451,6 +458,7 @@ const regioni = {
       "regioni/toscana/prodotti/marrone_del_mugello_igp.jpg"
     ]
   },
+  // Done
   "Marche": {
     piatti: [
       "Vincisgrassi", 
@@ -501,6 +509,8 @@ const regioni = {
       "regioni/marche/prodotti/tartufo_bianco_di_acqualagna.jpg"
     ]
   },
+  // Il lavoro di William è fatto
+  // Da qui in poi è la Parte di Ilyass
   "Umbria": {
     piatti: [
       "Strangozzi al tartufo", 
