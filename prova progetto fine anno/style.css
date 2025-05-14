@@ -1,49 +1,61 @@
 body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     background-color: #fefefe;
     font-family: 'Segoe UI', sans-serif;
-    margin: 0; /* Rimuove i margini */
-    min-height: 100vh; /* Assicura che il contenuto occupi almeno l'altezza della finestra */
-    display: flex;
-    flex-direction: column; /* Dispone gli elementi in colonna */
+    margin: 0; 
 }
   
 .card {
     border-radius: 12px;
     transition: transform 0.2s ease;
+    max-height: 350px;      
+    overflow-y: auto;        
 }
   
 .card:hover {
     transform: scale(1.03);
 }
 
+.card-img-top {
+    width: 100%;
+    height: 200px;         
+    object-fit: cover;    
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
 #map-container {
-    width: 100vw; /* Larghezza completa della finestra */
-    height: 100vh; /* Altezza completa della finestra */
-    margin: 0; /* Rimuove i margini */
+    width: 100vw;
+    height: 100vh; 
+    margin: 0;
     position: relative;
-    display: flex; /* Usa Flexbox */
-    justify-content: center; /* Centra orizzontalmente */
-    align-items: center; /* Centra verticalmente */
-    overflow: hidden; /* Evita che l'immagine esca dal contenitore */
-    flex: 1; /* Permette al contenitore di espandersi per occupare lo spazio disponibile */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    overflow: hidden; 
+    flex: 1;
 }
   
 #map {
-    width: 100%; /* Occupa tutta la larghezza del contenitore */
-    height: 100%; /* Occupa tutta l'altezza del contenitore */
-    object-fit: contain; /* Adatta l'immagine senza tagliarla */
-    border-radius: 0; /* Rimuove gli angoli arrotondati */
+    width: 100%; 
+    height: 100%; 
+    object-fit: contain; 
+    border-radius: 0; 
 }
   
 footer {
-    position: relative; /* Cambia da fixed a relative */
-    bottom: 0;
     width: 100%;
-    background-color: #f8f9fa; /* Colore di sfondo del footer */
+    background-color: #f8f9fa; 
     text-align: center;
     padding: 10px 0;
-    border-top: 1px solid #ddd; /* Linea sopra il footer */
+    border-top: 1px solid #ddd;
+    margin-top: auto; 
+    position: static;
 }
-
-
-
+.carousel-control-prev,
+.carousel-control-next {
+    opacity: 0 !important;
+    pointer-events: none;
+}
