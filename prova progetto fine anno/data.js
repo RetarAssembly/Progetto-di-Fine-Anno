@@ -1,5 +1,5 @@
 const regioni = {
-  // Done:
+  // Done: Corrected
   "Valle d'Aosta": {
     piatti: [
       "Polenta concia", 
@@ -45,12 +45,12 @@ const regioni = {
       "regioni/valle_daosta/prodotti/fontina_dop.jpg",
       "regioni/valle_daosta/prodotti/lard_darnad_dop.jpg",
       "regioni/valle_daosta/prodotti/mocetta.jpg",
-      "regioni/valle_daosta/prodotti/toma_valdostana.jpg",
+      "regioni/valle_daosta/prodotti/Toma valdostana.jpg",
       "regioni/valle_daosta/prodotti/miele_della_valle_daosta.jpg",
       "regioni/valle_daosta/prodotti/genepi.jpg"
     ]
   },
-   // Done:
+   // Done: Done Well
   "Piemonte": {
     piatti: [
       "Bagna cauda",
@@ -101,7 +101,7 @@ const regioni = {
       "regioni/piemonte/prodotti/robiola.jpeg"
     ]
   },
-  // Done:
+  // Done: Done Well
   "Lombardia": {
     piatti: [
       "Risotto alla milanese", 
@@ -152,7 +152,7 @@ const regioni = {
       "regioni/lombardia/prodotti/formaggella.jpg"
     ]
   },
-  // Done:
+  // Done: Done Well
    "Trentino-Alto Adige": {
     piatti: [
       "Canederli", 
@@ -203,7 +203,7 @@ const regioni = {
       "regioni/trentino_alto_adige/prodotti/formaggio.jpg"
     ]
   },
-  // Done
+  // Done: Done Well
   "Veneto": {
     piatti: [
       "Risi e bisi", 
@@ -254,7 +254,7 @@ const regioni = {
       "regioni/veneto/prodotti/amarone_della_valpolicella_docg.jpg"
     ]
   },
-  // Done:
+  // Done: Done Well
   "Friuli Venezia Giulia": {
     piatti: [
       "Frico", 
@@ -305,7 +305,7 @@ const regioni = {
       "regioni/friuli_venezia_giulia/prodotti/miele_di_acacia_del_carso.jpg"
     ]
   },
-  // Done:
+  // Done: Done Well
   "Liguria": {
     piatti: [
       "Trofie al pesto", 
@@ -356,7 +356,7 @@ const regioni = {
       "regioni/liguria/prodotti/limoni_di_portofino.jpg"
     ]
   },
-  // Done
+  // Done: Corrected
   "Emilia-Romagna": {
     piatti: [
       "Tortellini in brodo", 
@@ -407,7 +407,7 @@ const regioni = {
       "regioni/emilia_romagna/prodotti/coppa_piacentina_dop.jpg"
     ]
   },
-    // Done
+    // Done: Done Well
      "Toscana": {
     piatti: [
       "Bistecca alla fiorentina", 
@@ -458,7 +458,7 @@ const regioni = {
       "regioni/toscana/prodotti/marrone_del_mugello_igp.jpg"
     ]
   },
-  // Done
+  // Done: Done Well
   "Marche": {
     piatti: [
       "Vincisgrassi", 
