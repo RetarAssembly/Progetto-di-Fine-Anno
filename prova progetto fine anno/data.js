@@ -1,6 +1,9 @@
+//Lista contenente i dati relativi delle varie regioni necessaria per popolare dinamicamente regione.html tramite regioni.js
 const regioni = {
-  // Done: Corrected
+//per ogni regione
+  //Nome della regione
   "Valle d'Aosta": {
+    //Nome dei piatti tipici
     piatti: [
       "Polenta concia", 
       "Seupa à la valpelenentse", 
@@ -9,6 +12,7 @@ const regioni = {
       "Zuppa di castagne", 
       "Torta di segale"
     ],
+    //Descrizione dei piatti tipici
     descrizionePiatti: [
       "Polenta arricchita con fontina e burro, piatto tipico della tradizione montanara",
       "Zuppa densa a base di pane, fontina e cavolo, perfetta per i climi freddi",
@@ -17,6 +21,7 @@ const regioni = {
       "Zuppa rustica a base di castagne, latte e burro, tipica dei mesi autunnali",
       "Dolce tradizionale fatto con farina di segale, miele e frutta secca"
     ],
+    //percorso delle immagini dei piatti tipici
     immaginiPiatti: [
       "regioni/valle_daosta/piatti/polenta.jpeg", 
       "regioni/valle_daosta/piatti/seupa.jpeg", 
@@ -25,6 +30,7 @@ const regioni = {
       "regioni/valle_daosta/piatti/zuppa.jpeg",
       "regioni/valle_daosta/piatti/torta.jpeg"
     ],
+    //Nome dei prodotti tipici
     prodotti: [
       "Fontina DOP", 
       "Lard d'Arnad DOP", 
@@ -33,6 +39,7 @@ const regioni = {
       "Miele della Valle d'Aosta", 
       "Genepì"
     ],
+    //Descrizione dei prodotti tipici
     descrizioneProdotto: [
       "Formaggio a pasta semicotta prodotto con latte vaccino, dal sapore dolce e delicato",
       "Lardo stagionato in recipienti di legno con aromi, prodotto ad Arnad",
@@ -41,6 +48,7 @@ const regioni = {
       "Miele millefiori di alta montagna, prodotto in ambienti incontaminati",
       "Liquore digestivo a base di un'erba aromatica tipica delle Alpi"
     ],
+    //percorso delle immagini dei prodotti tipici
     immaginiProdotto: [
       "regioni/valle_daosta/prodotti/fontina_dop.jpg",
       "regioni/valle_daosta/prodotti/lard_darnad_dop.jpg",
@@ -50,7 +58,7 @@ const regioni = {
       "regioni/valle_daosta/prodotti/genepi.jpg"
     ]
   },
-   // Done: Done Well
+
   "Piemonte": {
     piatti: [
       "Bagna cauda",
@@ -101,7 +109,7 @@ const regioni = {
       "regioni/piemonte/prodotti/robiola.jpeg"
     ]
   },
-  // Done: Done Well
+
   "Lombardia": {
     piatti: [
       "Risotto alla milanese", 
@@ -152,7 +160,7 @@ const regioni = {
       "regioni/lombardia/prodotti/formaggella.jpg"
     ]
   },
-  // Done: Done Well
+
    "Trentino-Alto Adige": {
     piatti: [
       "Canederli", 
@@ -203,7 +211,7 @@ const regioni = {
       "regioni/trentino_alto_adige/prodotti/formaggio.jpg"
     ]
   },
-  // Done: Done Well
+
   "Veneto": {
     piatti: [
       "Risi e bisi", 
@@ -254,7 +262,7 @@ const regioni = {
       "regioni/veneto/prodotti/amarone_della_valpolicella_docg.jpg"
     ]
   },
-  // Done: Done Well
+
   "Friuli Venezia Giulia": {
     piatti: [
       "Frico", 
@@ -305,7 +313,7 @@ const regioni = {
       "regioni/friuli_venezia_giulia/prodotti/miele_di_acacia_del_carso.jpg"
     ]
   },
-  // Done: Done Well
+
   "Liguria": {
     piatti: [
       "Trofie al pesto", 
@@ -356,7 +364,7 @@ const regioni = {
       "regioni/liguria/prodotti/limoni_di_portofino.jpg"
     ]
   },
-  // Done: Corrected
+
   "Emilia-Romagna": {
     piatti: [
       "Tortellini in brodo", 
@@ -407,7 +415,7 @@ const regioni = {
       "regioni/emilia_romagna/prodotti/coppa_piacentina_dop.jpg"
     ]
   },
-    // Done: Done Well
+  
      "Toscana": {
     piatti: [
       "Bistecca alla fiorentina", 
@@ -458,7 +466,7 @@ const regioni = {
       "regioni/toscana/prodotti/marrone_del_mugello_igp.jpg"
     ]
   },
-  // Done: Done Well
+
   "Marche": {
     piatti: [
       "Vincisgrassi", 
@@ -509,8 +517,7 @@ const regioni = {
       "regioni/marche/prodotti/tartufo_bianco_di_acqualagna.jpg"
     ]
   },
-  // Il lavoro di William è fatto
-  // Da qui in poi è la Parte di Ilyass
+
   "Umbria": {
     piatti: [
       "Strangozzi al tartufo", 
